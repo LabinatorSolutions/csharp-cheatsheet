@@ -26,9 +26,9 @@
     "@docusaurus/core": "3.10.2",
     "@docusaurus/faster": "3.10.2",
     "@docusaurus/preset-classic": "3.10.2",
-    "@easyops-cn/docusaurus-search-local": "^0.55.2",
+    "@easyops-cn/docusaurus-search-local": "^0.55.3",
     "@mdx-js/react": "^3.1.1",
-    "baseline-browser-mapping": "^2.11.1",
+    "baseline-browser-mapping": "^2.11.9",
     "caniuse-lite": "^1.0.30001806",
     "clsx": "^2.1.1",
     "prism-react-renderer": "^2.4.1",
@@ -36,12 +36,12 @@
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.5",
+    "@biomejs/biome": "^2.5.6",
     "@docusaurus/module-type-aliases": "3.10.2",
     "@docusaurus/tsconfig": "^3.10.2",
     "@docusaurus/types": "3.10.2",
-    "rumdl": "^0.2.40",
-    "typescript": "^5.9.3"
+    "rumdl": "^0.2.47",
+    "typescript": "^7.0.2"
   },
   "browserslist": {
     "production": [
@@ -57,5 +57,10 @@
   },
   "engines": {
     "node": ">=24.18.0"
+  },
+  "overrides": {
+    "copy-webpack-plugin": "^14.0.0",
+    "css-minimizer-webpack-plugin": "^8.0.0",
+    "webpack-dev-server": "^6.0.0"
   }
 }
