@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "ci": "biome ci .",
+    "check:overrides": "bun scripts/check-overrides.ts",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "prebuild": "bun run lint:md",
