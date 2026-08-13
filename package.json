@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "ci": "biome ci .",
+    "audit": "bun audit --audit-level=high --ignore=GHSA-w3rx-r6r6-pgpr --ignore=GHSA-5p2g-fcmc-qvqq",
     "check:overrides": "bun scripts/check-overrides.ts",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -37,11 +38,11 @@
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.7",
+    "@biomejs/biome": "^2.5.8",
     "@docusaurus/module-type-aliases": "3.10.2",
     "@docusaurus/tsconfig": "^3.10.2",
     "@docusaurus/types": "3.10.2",
-    "rumdl": "^0.2.52",
+    "rumdl": "^0.2.55",
     "typescript": "^7.0.2"
   },
   "browserslist": {
