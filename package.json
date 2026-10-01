@@ -36,11 +36,11 @@
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.13",
+    "@biomejs/biome": "^2.5.15",
     "@docusaurus/module-type-aliases": "3.10.2",
     "@docusaurus/tsconfig": "^3.10.2",
     "@docusaurus/types": "3.10.2",
-    "rumdl": "^0.2.73",
+    "rumdl": "^0.2.78",
     "typescript": "^7.0.2"
   },
   "browserslist": {
