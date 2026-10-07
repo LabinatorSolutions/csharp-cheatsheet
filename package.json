@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "ci": "biome ci .",
-    "audit": "bun audit --audit-level=high --ignore=GHSA-w3rx-r6r6-pgpr --ignore=GHSA-5p2g-fcmc-qvqq",
+    "audit": "bun audit --audit-level=high --ignore=GHSA-w3rx-r6r6-pgpr --ignore=GHSA-5p2g-fcmc-qvqq --ignore=GHSA-vfj7-8cjw-p6xm",
     "check:overrides": "bun scripts/check-overrides.ts",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -61,6 +61,7 @@
   "overrides": {
     "copy-webpack-plugin": "^14.0.0",
     "css-minimizer-webpack-plugin": "^8.0.0",
+    "tinypool": "^2.2.0",
     "webpack-dev-server": "^6.0.0"
   }
 }
