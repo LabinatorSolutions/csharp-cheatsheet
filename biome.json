@@ -15,5 +15,9 @@
   },
   "formatter": { "enabled": true, "indentStyle": "space" },
   "linter": { "enabled": true, "rules": { "preset": "recommended" } },
-  "javascript": { "formatter": { "quoteStyle": "single" } }
+  "javascript": { "formatter": { "quoteStyle": "single" } },
+  "markdown": {
+    "formatter": { "enabled": false },
+    "linter": { "enabled": false }
+  }
 }
