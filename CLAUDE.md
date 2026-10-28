@@ -22,6 +22,8 @@ bun run serve     # serve the built site (search works here, not in dev)
 bun run lint:fix  # Biome check + write
 ```
 
+`build` runs with `--no-experimental-webstorage` in `NODE_OPTIONS`: Docusaurus's SSG renderer (the `eval` package) copies every global, which on Node 25+ trips the Web Storage getter and prints a `localStorage is not available` ExperimentalWarning. Drop the flag once Docusaurus stops enumerating globals.
+
 ## SEO & GEO
 
 All SEO is configured centrally in `docusaurus.config.js`. Keep these in sync when the site changes:
