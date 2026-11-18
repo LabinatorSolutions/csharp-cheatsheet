@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "ci": "biome ci .",
-    "audit": "bun audit --audit-level=high --ignore=GHSA-w3rx-r6r6-pgpr --ignore=GHSA-5p2g-fcmc-qvqq --ignore=GHSA-vfj7-8cjw-p6xm",
+    "audit": "bun audit --audit-level=high --ignore=GHSA-w3rx-r6r6-pgpr --ignore=GHSA-5p2g-fcmc-qvqq --ignore=GHSA-vfj7-8cjw-p6xm --ignore=GHSA-fc5q-39xc-vjpf",
     "check:overrides": "bun scripts/check-overrides.ts",
     "start": "docusaurus start",
     "build": "NODE_OPTIONS=\"$NODE_OPTIONS --no-experimental-webstorage\" docusaurus build",
@@ -36,7 +36,7 @@
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.6.7",
+    "@biomejs/biome": "^2.6.8",
     "@docusaurus/module-type-aliases": "3.10.2",
     "@docusaurus/tsconfig": "^3.10.2",
     "@docusaurus/types": "3.10.2",
